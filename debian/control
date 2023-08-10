@@ -2,7 +2,7 @@ Source: adaptation-xiaomi-violet
 Maintainer: Mathew Dennis <gitlab.com/mathew-dennis>
 Section: metapackages
 Priority: optional
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 10), gcc, libcurl4-openssl-dev
 Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/droidian/adaptation-xiaomi-violet
 Vcs-Git: https://github.com/droidian/adaptation-xiaomi-violet.git
