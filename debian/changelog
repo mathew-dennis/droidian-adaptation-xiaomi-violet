@@ -1,5 +1,5 @@
 adaptation-xiaomi-violet (0.0.0+git20230325291872.3997ecb.bookworm) bookworm; urgency=medium
 
-  * disable suspend
+  * initial commit
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Sat, 25 Mar 2023 08:28:30 +0330
+ --mathew dennis  Thu, 10 Aug 2023 22:28:30 +0530
