@@ -3,8 +3,8 @@
 %:
 	dh $@
 
+override_dh_auto_build:
+	gcc -o usr/bin/getepoch src/getepoch.c -lcurl
+
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-google-sargo-configs --name=flashlight-perm flashlight-perm.service --no-start
-	dh_installsystemd -padaptation-google-sargo-configs --name=mask-hangingservices mask-hanging.service --no-start
-	dh_installsystemd -padaptation-google-sargo-configs --name=dt2w dt2w.service --no-start
-	dh_installsystemd -padaptation-google-sargo-configs --name=camera-prop camera-prop.service --no-start
+	dh_installsystemd -padaptation-xiaomi-violet-configs --name=getepoch getepoch.service --no-start
