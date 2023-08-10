@@ -5,6 +5,6 @@
 
 override_dh_installsystemd:
 	dh_installsystemd -padaptation-google-sargo-configs --name=flashlight-perm flashlight-perm.service --no-start
-	dh_installsystemd -padaptation-google-sargo-configs --name=flash-generic flash-generic.service --no-start
+	dh_installsystemd -padaptation-google-sargo-configs --name=mask-hangingservices mask-hanging.service --no-start
 	dh_installsystemd -padaptation-google-sargo-configs --name=dt2w dt2w.service --no-start
 	dh_installsystemd -padaptation-google-sargo-configs --name=camera-prop camera-prop.service --no-start
