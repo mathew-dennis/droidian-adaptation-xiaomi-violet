@@ -3,8 +3,6 @@
 %:
 	dh $@
 
-override_dh_auto_build:
-	gcc -o usr/bin/getepoch src/getepoch.c -lcurl
-
 override_dh_installsystemd:
-	dh_installsystemd -padaptation-xiaomi-violet-configs --name=getepoch getepoch.service --no-start
+	dh_installsystemd -padaptation-xiaomi-violet-configs --name=binder-perm binder-perm.service --no-start
+    dh_installsystemd -padaptation-xiaomi-violet-configs --name=droidian-perf droidian-perf.service --no-start

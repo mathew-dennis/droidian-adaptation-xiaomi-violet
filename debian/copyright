@@ -6,6 +6,10 @@ Files: *
 Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
+Files: *
+Copyright: 2023 Mathew Dennis
+License: BSD-3-clause
+
 Files: debian/*
 Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause

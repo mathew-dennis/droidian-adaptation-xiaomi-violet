@@ -1,0 +1,11 @@
+[Unit]
+Description=Give the correct permission for binder to get waydroid working properly
+Requires=lxc@android.service
+After=phosh.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'chmod 777 /dev/anbox-* /dev/*binder'
+
+[Install]
+WantedBy=multi-user.target

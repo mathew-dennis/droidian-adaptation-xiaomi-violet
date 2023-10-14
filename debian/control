@@ -11,11 +11,11 @@ Package: adaptation-xiaomi-violet
 Architecture: all
 Depends: ${misc:Depends},
          linux-bootimage-xiaomi-violet,
-         adaptation-hybris-api28-phone,
+         adaptation-hybris-api30-phone,
          adaptation-xiaomi-violet-configs,
          droidian-camera
 Description: adapatation-xiami-violet - meta
- Xiaomi Violet  (Redmi Note 7 pro) api28 adaptation metapackage
+ Xiaomi Violet  (Redmi Note 7 pro) api30 adaptation metapackage
 
 Package: adaptation-xiaomi-violet-configs
 Architecture: all
