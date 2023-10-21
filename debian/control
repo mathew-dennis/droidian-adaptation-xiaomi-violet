@@ -10,8 +10,6 @@ Vcs-Git: https://github.com/droidian/adaptation-xiaomi-violet.git
 Package: adaptation-xiaomi-violet
 Architecture: all
 Depends: ${misc:Depends},
-         linux-bootimage-xiaomi-violet,
-         adaptation-hybris-api30-phone,
          adaptation-xiaomi-violet-configs,
          droidian-camera
 Description: adapatation-xiami-violet - meta
