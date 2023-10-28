@@ -1,7 +1,7 @@
 [Unit]
 Description=Give the correct permission for binder to get waydroid working properly
 Requires=lxc@android.service
-After=phosh.service
+After=android_boot_completed.service
 
 [Service]
 Type=oneshot
