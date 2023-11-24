@@ -1,4 +1,4 @@
-adaptation-xiaomi-violet (0.0.0+git20230325291872.3997ecb.bookworm) bookworm; urgency=medium
+adaptation-xiaomi-violet (0.0.0+git20230325291872.3997ecb.trixie) trixie; urgency=medium
 
   * initial commit
 
