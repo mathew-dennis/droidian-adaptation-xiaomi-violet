@@ -6,3 +6,4 @@
 /etc/systemd/system/android-mount.service.d
 /usr/lib/droidian/device
 /usr/bin/droid
+/etc/pulse

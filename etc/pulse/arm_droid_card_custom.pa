@@ -1,0 +1,1 @@
+load-module module-droid-card rate=48000 voice_virtual_stream=true use_legacy_stream_set_parameters=true
